@@ -205,6 +205,9 @@ bool timeToFeed(){
   Minute = t.min;  
   seconds = t.sec;
   //If the remainder of the hour divided by the interval is = 0, feed cat
+  if (Hour>12){
+    Hour = Hour-12;
+  }
   if (Hour % interval == 0 && Minute == 0 && seconds< secs){
     return true;
   }
