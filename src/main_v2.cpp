@@ -17,8 +17,9 @@
 #define debug(x)
 #define debugln(x)
 #endif
-// change note
-//Second Change
+
+// Added change
+
 
 //Class Defenition
 Servo servo_1; // servo controller (multiple can exist)
